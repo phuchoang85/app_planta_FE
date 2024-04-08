@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "AVivien - Anbadbn piasdon adadasd",
+        "img": [
+            "https://i.imgur.com/Pp7A4Uy.png",
+            "https://i.imgur.com/Pp7A4Uy.png",
+            "https://i.imgur.com/Pp7A4Uy.png"
+        ],
+        "size": "Nhỏ",
+        "catagory": "Cây trồng",
+        "condition": "Ưu sáng",
+        "price": 250000,
+        "origin": "Châu phi",
+        "quantity": 12,
+        "lever": "3/6",
+        "knowledge": [
+            {
+                "id": 1,
+                "title": "Chuẩn bị vật dụng, chất trồng",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 2,
+                "title": " Tiến hành gieo hạt",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 3,
+                "title": "Chăm sóc sau khi gieo hạt",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            }
+        ],
+        "stage": [
+            {
+                "id": 1,
+                "title": "1. Ngâm Hạt và Ủ Hạt (48 tiếng) ",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 2,
+                "title": "2. Nảy Mầm (3-5 ngày)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 3,
+                "title": "3. Bắt Đầu Phát Triển (2-3 tuần)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 4,
+                "title": "4. Trưởng Thành (4-6 tuần) ",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 5,
+                "title": "5. Ra Hoa (4-6 tuần)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Piasdon abonge",
+        "img": [
+            "https://i.imgur.com/Pp7A4Uy.png",
+            "https://i.imgur.com/Pp7A4Uy.png",
+            "https://i.imgur.com/Pp7A4Uy.png"
+        ],
+        "size": "Nhỏ",
+        "catagory": "Cây trồng",
+        "condition": "Ưu sáng",
+        "price": 250000,
+        "origin": "Châu phi",
+        "quantity": 12,
+        "lever": "6/6",
+        "knowledge": [
+            {
+                "id": 1,
+                "title": "Chuẩn bị vật dụng, chất trồng",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 2,
+                "title": " Tiến hành gieo hạt",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 3,
+                "title": "Chăm sóc sau khi gieo hạt",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            }
+        ],
+        "stage": [
+            {
+                "id": 1,
+                "title": "1. Ngâm Hạt và Ủ Hạt (48 tiếng) ",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 2,
+                "title": "2. Nảy Mầm (3-5 ngày)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 3,
+                "title": "3. Bắt Đầu Phát Triển (2-3 tuần)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 4,
+                "title": "3. Bắt Đầu Phát Triển (2-3 tuần)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            },
+            {
+                "id": 5,
+                "title": "3. Bắt Đầu Phát Triển (2-3 tuần)",
+                "content": "- Chậu nhỏ hoặc chậu to nếu sau này không muốn thay chậu nữa) hoặc khay ươm nếu gieo số lượng nhiều. Dù bạn dự tính trồng thẳng trong chậu hoặc sẽ chuyển xuống đất trồng thì cũng nên uơm hạt trong chậu trước vì dễ quản lí đô ẩm, sâu bệnh, dinh dưỡng…- Thuốc trừ nấm: Thuốc trừ nấm cũng là 1 phần không thể thiếu trong khâu chuẩn bị. Nó giúp hạn chế các loại nấm mốc có hại cho hạt giống ảnh hưởng tới cây trồng của bạn sau này.- Đất trồng: Theo phản ảnh và kinh nghiệm thực tế của các nhà vườn, gieo hạt bằng hỗn hợp cám dừa + tro trấu (tỷ lệ 7:3. thậm chí 100% cám dừa) có kết quả tốt hơn gieo hạt bằng đất sạch. Tuy nhiên cám dừa cần ngâm xả nhiều lần cho hết chất tanin (màu vàng nâu) mới sử dụng được, tro trấu cũng nên ngâm xả nhiều lần để bớt muối.- Tủ Trồng- Điều Hòa Độ Ẩm"
+            }
+        ]
+    }
+]

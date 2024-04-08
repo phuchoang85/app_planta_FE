@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "title": "Cây trồng",
+        "properties": [
+            {
+                "id": "1",
+                "title": "ưa sáng"
+            },
+            {
+                "id": "2",
+                "title": "hàng mới về"
+            },
+            {
+                "id": "3",
+                "title": "ưa tối"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "chậu cây trồng",
+        "properties": []
+    },
+    {
+        "id": "3",
+        "title": "phụ kiện chăm sóc",
+        "properties": []
+    }
+]
