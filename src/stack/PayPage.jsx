@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView, KeyboardAvoidingView, Keyboard, Animated } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, KeyboardAvoidingView, Keyboard, Animated, Alert } from 'react-native'
 import React, { useContext, useEffect, useRef, useState } from 'react'
 import styles from '../../commond/AppStyles';
 import Header from './Header';
@@ -43,7 +43,7 @@ const PayPage = () => {
     ];
 
     const listSelectPayment = [
-        { title: 'Thẻ VISA/MASTERCARD', id: 1, },
+        { title: 'Thanh toán trực tiếp', id: 1, },
         { title: 'Thẻ ATM', id: 2, }
     ]
 
@@ -127,20 +127,25 @@ const PayPage = () => {
     }
 
     const onPressContinue = () => {
-        setclick(click + 1);
-        const users = {
-            _id: appReducer.user._id,
-            username: username,
-            email: email,
-            phonenumber: phonenumber,
-            address: address,
+        if (!address.trim() || address.length < 10) {
+            seteroraddress('Hãy nhập đầy đủ địa chỉ');
+        }else{
+            setclick(click + 1);
+            const users = {
+                _id: appReducer.user._id,
+                username: username,
+                email: email,
+                phonenumber: phonenumber,
+                address: address,
+            }
+    
+            navigation.navigate('PayPageSubmit', {
+                payment: listSelectPayment[listSelectExprex.findIndex(ele => ele.id == selectPayment)].title,
+                express: listSelectExprex[listSelectExprex.findIndex(ele => ele.id == selectExpressType)],
+                user: users
+            });
         }
-
-        navigation.navigate('PayPageSubmit', {
-            payment: listSelectPayment[listSelectExprex.findIndex(ele => ele.id == selectPayment)].title,
-            express: listSelectExprex[listSelectExprex.findIndex(ele => ele.id == selectExpressType)],
-            user: users
-        });
+        
     }
 
 
@@ -256,7 +261,7 @@ const PayPage = () => {
                     </View>
                     <Appbutton
                         text={'TIẾP TỤC'}
-                        styles={[style.buttonNext, { backgroundColor: '#007537' }]}
+                        styles={[style.buttonNext, { backgroundColor: '#D46C4E' }]}
                         event={() => onPressContinue()}
                         stylettext={[style.textSmall, { color: 'white' }]}
                     />

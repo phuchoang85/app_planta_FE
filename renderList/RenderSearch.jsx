@@ -17,15 +17,13 @@ const RenderSearch = (props) => {
       style={style.container}>
       <Image style={style.img} source={{ uri: pr.imgs[0].img }} />
       <View style={{ flex: 1}}>
-        {type === "Notification" && <Text style={[style.text, { fontSize: 16, color: item.isSucces === "Đặt hàng thành công" ? 'green' : 'red' }]}>{item.isSucces}</Text>}
+        {type === "Notification" && <Text style={[style.text, { fontSize: 16, color: item.isSucces === "Đã giao thành công" ? 'green' : 'red' }]}>{item.isSucces}</Text>}
        
         <View style={style.containername}>
           <Text numberOfLines={1} style={[style.text, { fontSize: 16, flex: 6 }]}>{pr.name}</Text>
-          <Text style={[style.text, { fontSize: 16, flex: 1 }]}>|</Text>
-         {pr.prototy.length > 0 ? <Text numberOfLines={1} style={[style.text, { fontSize: 16, flex: 5 }]}>{pr.prototy[0].title}</Text>: <Text style={[style.text, { fontSize: 16, flex: 5 }]}></Text>}
         </View>
 
-        {type === "Guide" && <Text style = {[style.text, { fontSize: 14, color: '#7D7B7B' }]}>Độ khó {pr.lever}</Text>}
+        {/* {type === "Guide" && <Text style = {[style.text, { fontSize: 14, color: '#7D7B7B' }]}>Độ khó {pr.lever}</Text>} */}
         {type !== "Notification" && type !== "Guide" && <Text style={[style.text, { fontSize: 16 }]}>{pr.price}đ</Text>}
         {type !== "Guide" && <Text style={[style.text, { fontSize: 14 }]}>{type == 'Search' ? ('Còn ' + pr.quantity + ' sp') : (item.count + " sản phẩm")}</Text>}
       </View>

@@ -8,7 +8,7 @@ const AppFlatListProductHome = (props) => {
     const { data, title, number, more, renderitem, styletitle,textEmpty,idcatalog,navigation } = props;
 
     return (
-        <View style={{ paddingTop: 30 }}>
+        <View style={{ paddingTop: title ? 30 : 0 }}>
             {title ? <Text style={styletitle ? styletitle : style.textTitle}>{title}</Text> : <View></View>}
 
             <FlatList

@@ -46,9 +46,6 @@ const RenderCart = (props) => {
             <View style={{ flex: 1 }}>
                 <View style={style.containername}>
                     <Text numberOfLines={1} style={[style.text, { fontSize: 16, flex: 6 }]}>{item.product.name}</Text>
-                    <Text style={[style.text, { fontSize: 16, flex: 1 }]}>|</Text>
-                    {item.product.prototy.length > 0 && <Text numberOfLines={1} style={[style.text, { fontSize: 16, flex: 5, color: '#7D7B7B' }]}>{item.product.prototy[0].title}</Text>}
-
                 </View>
                 <Text style={[style.text, { fontSize: 16, color: '#007537' }]}>{AppChangePrice(item.product.price)}đ</Text>
                 <View style={style.containerBottom}>

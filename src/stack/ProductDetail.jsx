@@ -17,7 +17,7 @@ const ProductDetail = ({ route }) => {
   const colorBlur = '#7D7B7B';
   const colorBlurButton = '#ABABAB'
   const colotBlack = 'black';
-  const colorGreen = '#007537';
+  const colorGreen = '#D46C4E';
 
   const userStore = useSelector((state) => state.user);
 
@@ -92,7 +92,7 @@ const ProductDetail = ({ route }) => {
 
   if (isLoading) {
     return (
-      <View>
+      <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
         <Text>Đang tải</Text>
       </View>
     )
@@ -152,14 +152,14 @@ const ProductDetail = ({ route }) => {
             />
 
             <View style={{ flex: 1, height: 2, backgroundColor: 'green' }}></View>
-
+{/* 
             <AppToogleGuide
               data={detail.stage}
               comment={'Các giai đoạn'}
               styletext={{ marginTop: 16 }}
               imgShow={require('../../resources/images/unshow.jpg')}
               imgClose={require('../../resources/images/show.jpg')}
-            />
+            /> */}
           </View>
         }
 
@@ -177,12 +177,12 @@ const ProductDetail = ({ route }) => {
               styleRight={{}}
             />
 
-            <AppTextUnderLine
+            {/* <AppTextUnderLine
               textLeft={'Kích cỡ'}
               textRight={detail.size}
               styleLeft={style.textSmallDetail}
               styleRight={style.textSmallDetail}
-            />
+            /> */}
 
             <AppTextUnderLine
               textLeft={'Xuất sứ'}
@@ -206,7 +206,7 @@ const ProductDetail = ({ route }) => {
             />
 
             <Text style={style.textSmallDetail}>
-              {detail.descripe}
+              {detail.description}
             </Text>
 
             <View style={style.paddingBottom}>
@@ -214,9 +214,6 @@ const ProductDetail = ({ route }) => {
             </View>
           </View>
         }
-
-
-
       </ScrollView>
 
 
@@ -268,7 +265,7 @@ const ProductDetail = ({ route }) => {
 
 const style = StyleSheet.create({
   paddingBottom: {
-    height: 150,
+    height: 180,
   },
   buttonClick: {
     width: 'auto',
@@ -293,7 +290,7 @@ const style = StyleSheet.create({
     paddingHorizontal: 26,
     paddingBottom: 15,
     position: 'absolute',
-    bottom: 0,
+    bottom: 20,
   },
   containerTotalPrice: {
     flexDirection: 'row',
@@ -335,7 +332,7 @@ const style = StyleSheet.create({
   containerBody: {
     paddingHorizontal: 48,
     ...styles.backgroundAll,
-    height: '60%'
+    height: '60%',
   },
   containerCata: {
     flexDirection: 'row',

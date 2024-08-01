@@ -177,7 +177,9 @@ const PayPageSubmit = ({ route }) => {
                 <ScrollView
                     showsVerticalScrollIndicator={false}
                     style={style.containerBody}>
-                    <View>
+                    {
+                        payment  == "Thẻ ATM" && (
+                            <View>
                         <AppTextUnderLine
                             textLeft={'Nhập thông tin thẻ'}
                             styleLeft={style.textTitle}
@@ -225,8 +227,8 @@ const PayPageSubmit = ({ route }) => {
                                 source={require('../../resources/images/i.jpg')} />
                         </View>
 
-                    </View>
-
+                    </View> )
+                    }
                     <View>
                         <AppTextUnderLine
                             textLeft={'Thông tin khách hàng'}
@@ -274,7 +276,7 @@ const PayPageSubmit = ({ route }) => {
                     </View>
                     <Appbutton
                         text={'TIẾP TỤC'}
-                        styles={[style.buttonNext, { backgroundColor: '#007537' }]}
+                        styles={[style.buttonNext, { backgroundColor: '#D46C4E' }]}
                         event={() => onPressContinue()}
                         stylettext={[style.textSmall, { color: 'white' }]}
                     />

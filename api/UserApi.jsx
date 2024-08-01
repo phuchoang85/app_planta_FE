@@ -22,6 +22,7 @@ export default UserApi = {
                     return data
                 }
             } catch (error) {
+                console.log(error)
                 return rejectWithValue(error);
             }
         }

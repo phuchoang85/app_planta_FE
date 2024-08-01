@@ -20,7 +20,7 @@ const User = () => {
       />
 
       <View style={style.containerussername}>
-        <Image style={style.icon} source={{uri: appReducer.user.avatar}} />
+        <Image style={style.icon} source={ appReducer.user.avatar ? {uri: appReducer.user.avatar} : require('../../resources/images/avatar.jpg') } />
         <View>
           <Text style={[style.text16, { marginTop: 0 }]}>{appReducer.user.name}</Text>
           <Text style={style.text14}>{appReducer.user.email}</Text>
@@ -39,7 +39,7 @@ const User = () => {
           stylettext={style.text16} />
 
         <Appbutton
-          text={'Cẩm nang trồng cây'}
+          text={'Cẩm nang'}
           event={() => navigation.navigate('PlantGrowingGuide')}
           stylettext={style.text16} />
 

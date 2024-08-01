@@ -10,9 +10,9 @@ import Appbutton from '../../commond/Appbutton'
 import AppButtonImage from '../../commond/AppButtonImage'
 import CatalogApi from '../../api/CatalogApi'
 const Home = () => {
-  const catalogshow1 = "65f2701ba8e73ff8f9b70bd8"
-  const catalogshow2 = "65f27024a8e73ff8f9b70bda"
-  const catalogshow3 = "65f59ebf98d771d9f5a4df2d"
+  const catalogshow1 = "669dd588c4ba8e85797e52c0"
+  const catalogshow2 = "669dd57fc4ba8e85797e52bb"
+  const catalogshow3 = "669dd57fc4ba8e85797e52bb"
 
 
   const [data, setdata] = useState(product)
@@ -102,7 +102,7 @@ const Home = () => {
 
         <Animated.View style={[depositdownAnimation, style.containerdoc]}>
           <Animated.Text style={[fontAnimation, style.textTilte]}>
-            Planta - toả sáng không gian nhà bạn
+            Gốm xưa - toả sáng không gian nhà bạn
           </Animated.Text>
 
 
@@ -145,19 +145,28 @@ const Home = () => {
 
         </View>
 
-        <AppFlatListProductHome
+        {/* <AppFlatListProductHome
           data={catalog1}
           setdata={setcatalog1}
-          title={'Cây trồng'}
+          title={'Sản phẩm phong thủy'}
           navigation={navigation}
           number={2}
           more={true}
           idcatalog={catalogshow1}
-          renderitem={({ item }) => <RenderProductHome item={item} navigation={navigation} />} />
+          renderitem={({ item }) => <RenderProductHome item={item} navigation={navigation} />} /> */}
+        <AppFlatListProductHome
+          data={catalog1}
+          title={'Sản phẩm phong thủy'}
+          number={2}
+          more={true}
+          navigation={navigation}
+          idcatalog={catalogshow1}
+          renderitem={({ item }) => <RenderProductHome item={item} navigation={navigation} />}
+          setdata={setdata} />
 
         <AppFlatListProductHome
           data={catalog2}
-          title={'Chậu cây trồng'}
+          title={'Sản phẩm trang trí'}
           number={2}
           more={true}
           navigation={navigation}
@@ -165,17 +174,7 @@ const Home = () => {
           renderitem={({ item }) => <RenderProductHome item={item} navigation={navigation} />}
           setdata={setdata} />
 
-        <AppFlatListProductHome
-          data={catalog3}
-          title={'Vật trang trí cây trồng'}
-          number={2}
-          more={true}
-          navigation={navigation}
-          idcatalog={catalogshow3}
-          renderitem={({ item }) => <RenderProductHome item={item} navigation={navigation} />}
-          setdata={setdata} />
-
-        <AppFlatListProductHome
+        {/* <AppFlatListProductHome
           data={catalog3}
           title={'Combo chăm sóc (mới)'}
           number={1}
@@ -184,7 +183,7 @@ const Home = () => {
           navigation={navigation}
           renderitem={
             ({ item }) => <RenderSingleHome item={item} navigation={navigation} />}
-          setdata={setdata} />
+          setdata={setdata} /> */}
 
         <View style={style.paddingBottom}></View>
       </ScrollView>
@@ -219,7 +218,7 @@ const style = StyleSheet.create({
   textTilte: {
     ...styles.font2,
     fontWeight: '500',
-    width: '60%',
+    width: '70%',
     flexWrap: 'wrap',
     fontSize: 24,
     color: 'black',

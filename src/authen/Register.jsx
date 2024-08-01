@@ -137,7 +137,7 @@ const Register = () => {
 
         <AppLinearGradient
           styles={style.buttonClick}
-          listcolor={['#007537', '#4CAF50']}
+          listcolor={['#D46C4E', '#F9AD6A']}
           start={{ x: 0, y: 0 }}
           end={{ x: 1, y: 0 }}>
           <Appbutton
@@ -196,7 +196,7 @@ const Register = () => {
 const style = StyleSheet.create({
   img: {
     width: '100%',
-    height: 300,
+    height: 230,
     resizeMode: 'stretch',
   },
   containerRegister: {
@@ -238,7 +238,7 @@ const style = StyleSheet.create({
   container: {
     ...styles.container,
   }, containerbody: {
-    marginTop: 178,
+    marginTop: 100,
     padding: 30,
     backgroundColor: 'white',
   },

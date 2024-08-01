@@ -9,7 +9,7 @@ import AppModal from '../../commond/AppModal'
 import AppChangePrice from '../../commond/AppChangePrice'
 import CartApi from '../../api/CartApi'
 import { useDispatch, useSelector } from 'react-redux'
-import { setConfirmOrder,setTotalPrice  } from '../redux/reducer/ReducerConfirmOrder'
+import { setConfirmOrder, setTotalPrice } from '../redux/reducer/ReducerConfirmOrder'
 
 //cart laf giỏ hàng còn addtocart là danh sách được đánh dấu 
 const Cart = () => {
@@ -131,10 +131,8 @@ const Cart = () => {
 
     if (isLoading) {
         return (
-            <View>
-                <Text>
-                    Đang tải
-                </Text>
+            <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+                <Text>Đang tải</Text>
             </View>
         )
     }
@@ -232,7 +230,7 @@ const style = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'space-around',
         alignItems: 'center',
-        backgroundColor: '#007537',
+        backgroundColor: '#D46C4E',
         borderRadius: 8,
         height: 50
     },

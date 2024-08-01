@@ -13,31 +13,7 @@ const Search = () => {
 
 
   const historySearch = [
-    {
-      "_id": 1,
-      "name": "Allianora",
-      "time": "4/11/2023"
-    },
-    {
-      "_id": 2,
-      "name": "Kimmi",
-      "time": "6/9/2023"
-    },
-    {
-      "_id": 3,
-      "name": "Maryrose",
-      "time": "6/20/2023"
-    },
-    {
-      "_id": 4,
-      "name": "Jereme",
-      "time": "4/14/2023"
-    },
-    {
-      "_id": 5,
-      "name": "Sander",
-      "time": "1/9/2024"
-    }
+    
   ];
 
   const navigation = useNavigation();

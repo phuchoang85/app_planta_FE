@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
+import { Alert, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import styles from './AppStyles'
 import AppTextUnderLine from './AppTextUnderLine';
@@ -38,7 +38,13 @@ const AppSelect = (props) => {
     const renderItem1 = ({ title, id }) => {
         return (
             <TouchableOpacity
-            onPress={() => select(id)}
+            onPress={() => {
+                if(id == 2){
+                    Alert.alert("Thông báo", "Đang phát triển")
+                }else{
+                    select(id)
+                }
+            }}
             style={style.containerSelect} key={id}>
             <View>
                 <Text style={[style.text, { color: selectType == id ? '#007537' : '#221F1F' }]}>

@@ -170,7 +170,7 @@ const Catalog = ({ route }) => {
             </Animated.View>
 
 
-            <ScrollView style={{ paddingHorizontal: 24 }}
+            <ScrollView style={{ paddingHorizontal: 24, paddingTop: 30 }}
                 onScroll={async (el) => {
                     let a = el.nativeEvent.contentOffset.y;
                     let b = el.nativeEvent.contentSize.height;
