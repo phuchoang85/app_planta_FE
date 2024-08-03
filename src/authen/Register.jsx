@@ -26,6 +26,7 @@ const Register = () => {
   const [PhoneError, setPhoneError] = useState('')
 
   const registerfunc = async () => {
+
     const user = {
       email: Email,
       password: password,
@@ -38,9 +39,9 @@ const Register = () => {
       Alert.alert('đăng kí thành công');
       navigation.navigate('Login')
     } else {
-      Alert.alert('Lỗi', result.data)
-      dispatch(setLogin(false))
+      Alert.alert('Lỗi', result.data);
     }
+   
   }
   return (
     <View style={style.container}>
@@ -105,29 +106,7 @@ const Register = () => {
           entrypassword={true} />
 
         <View style={style.containerText}>
-          {/* <AppText
-            text={' Để đăng kí tài khoản, bạn đồng ý'}
-            styles={style.styleTextmarrgin}
-          />
-          
-          <Appbutton
-            text={`Terms & Conditions`}
-            styles={{}}
-            event={() => console.log('he')}
-            stylettext={style.styletextRegister}
-          />
-
-          <AppText
-            text={'and'}
-            styles={style.styleTextmarrgin}
-          />
-
-          <Appbutton
-            text={'Privacy Policy'}
-            styles={{}}
-            event={() => console.log('he')}
-            stylettext={style.styletextRegister}
-          /> */}
+        
           <Text style={style.styleTextmarrgin}>
             Để đăng kí tài khoản, bạn đồng ý <Text style={style.styletextRegister} onPress={() => { Alert.alert('hellooo') }}>Terms & Conditions</Text> and <Text style={style.styletextRegister} onPress={() => { Alert.alert('hellooo') }}>Privacy Policy</Text>
           </Text>

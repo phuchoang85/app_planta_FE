@@ -15,7 +15,7 @@ const Header = (props) => {
                 event={eventLeft} /> :
                 <View style={style.img} ></View>}
 
-            <Text style={style.styleText}>{title}</Text>
+            <Text style={style.styleText} numberOfLines={1}>{title}</Text>
 
             {iconRight ? <AppButtonImage
                 styleimg={style.img}
@@ -32,7 +32,8 @@ const style = StyleSheet.create({
     styleText: {
         fontSize: 16,
         fontWeight: 'bold',
-        ...styles.font2
+        ...styles.font2,
+        maxWidth: 220
     },
     container: {
         flexDirection: 'row',
@@ -44,7 +45,7 @@ const style = StyleSheet.create({
     },
     img: {
         width: 30,
-        height: 30
+        height: 30,
     }
 })
 
