@@ -26,7 +26,7 @@ const Search = () => {
   const renderitem = ({ item }) => {
     return (
       item.price ? <RenderSearch item={item} navigation={navigation} type={'Search'} /> :
-        <Renderhistorysearch item={item} setsearch={setsearch} setdatapro={setdatapro} />
+        <RenderHistorySearch item={item} setsearch={setsearch} setdatapro={setdatapro} />
     )
   }
 
