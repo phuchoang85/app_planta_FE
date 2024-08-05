@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import Header from '../stack/Header'
 import AppSearch from '../../commond/AppSearch'
 import AppFlatListProductHome from '../../commond/AppFlatListProductHome'
-import RenderHistorySearch from '../../renderList/RenderHistorySearch'
+import Renderhistorysearch from '../../renderList/Renderhistorysearch'
 import styles from '../../commond/AppStyles'
 import { useNavigation } from '@react-navigation/native'
 import RenderSearch from '../../renderList/RenderSearch'
@@ -12,7 +12,7 @@ const Search = () => {
 
 
 
-  const historySearch = [
+  const historysearch = [
     
   ];
 
@@ -21,12 +21,12 @@ const Search = () => {
   const [page, setpage] = useState(1)
   const [isFocus, setisFocus] = useState(false);
 
-  const [datapro, setdatapro] = useState(historySearch);
+  const [datapro, setdatapro] = useState(historysearch);
 
   const renderitem = ({ item }) => {
     return (
       item.price ? <RenderSearch item={item} navigation={navigation} type={'Search'} /> :
-        <RenderHistorySearch item={item} setsearch={setsearch} setdatapro={setdatapro} />
+        <Renderhistorysearch item={item} setsearch={setsearch} setdatapro={setdatapro} />
     )
   }
 
@@ -66,7 +66,7 @@ const Search = () => {
   return (
     <View style={style.container}>
       <Header
-        iconLeft={require('../../resources/images/arrowLeft.jpg')}
+        iconLeft={require('../../resources/images/arrowleft.jpg')}
         title={'Tìm kiếm'}
         iconRight={null}
         eventLeft={() => console.log("left")}

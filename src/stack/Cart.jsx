@@ -141,7 +141,7 @@ const Cart = () => {
     return (
         <View style={style.container}>
             <Header
-                iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                iconLeft={require('../../resources/images/arrowleft.jpg')}
                 title={'GIỎ HÀNG'}
                 iconRight={require('../../resources/images/trash_can.png')}
                 eventLeft={() => navigation.goBack()}
@@ -196,7 +196,7 @@ const Cart = () => {
                     <Text style={style.textButton}>
                         Tiến hành thanh toán
                     </Text>
-                    <Image style={style.icon} source={require('../../resources/images/rightWhite.png')} />
+                    <Image style={style.icon} source={require('../../resources/images/rightwhite.png')} />
                 </TouchableOpacity>
             </View>
 

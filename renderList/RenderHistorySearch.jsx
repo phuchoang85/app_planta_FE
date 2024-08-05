@@ -4,7 +4,7 @@ import styles from '../commond/AppStyles'
 import AppButtonImage from '../commond/AppButtonImage'
 import product from '../filedata/product.json'
 
-const RenderHistorySearch = (props) => {
+const Renderhistorysearch = (props) => {
   const { item, setsearch, setdatapro } = props;
 
   const findProduct = (text, data) => {
@@ -21,7 +21,7 @@ const RenderHistorySearch = (props) => {
         flexDirection: 'row',
         justifyContent: 'space-between'
       }}>
-        <Image style={style.img} source={require('../resources/images/historySearch.jpg')} />
+        <Image style={style.img} source={require('../resources/images/historysearch.jpg')} />
         <Text style={style.text}>{item.name}</Text>
       </View>
       <AppButtonImage
@@ -53,4 +53,4 @@ const style = StyleSheet.create({
   }
 })
 
-export default RenderHistorySearch
+export default Renderhistorysearch

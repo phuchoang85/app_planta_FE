@@ -101,7 +101,7 @@ const ProductDetail = ({ route }) => {
   return (
     <View>
       <Header
-        iconLeft={require('../../resources/images/arrowLeft.jpg')}
+        iconLeft={require('../../resources/images/arrowleft.jpg')}
         title={detail.name}
         iconRight={require('../../resources/images/cart.png')}
         eventLeft={() => navigation.goBack()}

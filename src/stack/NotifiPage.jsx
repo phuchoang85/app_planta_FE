@@ -20,7 +20,7 @@ const NotifiPage = ({ route }) => {
             style={style.container}>
             <View style={style.container}>
                 <Header
-                    iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                    iconLeft={require('../../resources/images/arrowleft.jpg')}
                     title={title}
                     eventLeft={() => navigation.goBack()}
                 />

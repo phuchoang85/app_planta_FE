@@ -7,7 +7,7 @@ import product from '../filedata/product.json'
 const AppSearch = (props) => {
     const { img, placeholder, value, setvalue, setisFocus, setpage,SearchProduct ,setdatapro} = props
 
-    const historySearch = [
+    const historysearch = [
         {
           "id": 1,
           "name": "Allianora",
@@ -42,7 +42,7 @@ const AppSearch = (props) => {
             SearchProduct(value,1)
         }else{
             setpage(1)
-            setdatapro(historySearch)
+            setdatapro(historysearch)
         }
     }
 

@@ -187,7 +187,7 @@ const Editinformation = () => {
         <View style={style.container}>
             <Header
                 title={'CHỈNH SỬA THÔNG TIN CÁ NHÂN'}
-                iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                iconLeft={require('../../resources/images/arrowleft.jpg')}
                 eventLeft={() => navigation.goBack()}
             />
 

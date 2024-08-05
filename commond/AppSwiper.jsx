@@ -22,8 +22,8 @@ const AppSwiper = (props) => {
       autoplayTimeout={2}
       dotStyle={style.paginationDot}
       activeDotStyle={style.activePaginationDot}
-      nextButton={ButtonSwiper(require('../resources/images/arrowRight.jpg'))}
-      prevButton={ButtonSwiper(require('../resources/images/arrowLeft.jpg'))}
+      nextButton={ButtonSwiper(require('../resources/images/arrowright.jpg'))}
+      prevButton={ButtonSwiper(require('../resources/images/arrowleft.jpg'))}
       >
         {data.map((imag) => (
           <View key={imag._id}>

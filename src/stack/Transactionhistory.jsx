@@ -38,7 +38,7 @@ const Transactionhistory = () => {
     return (
         <View style={style.container}>
             <Header
-                iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                iconLeft={require('../../resources/images/arrowleft.jpg')}
                 title={'Lịch sử giao dịch'}
                 eventLeft={() => navigation.navigate('User')}
             />

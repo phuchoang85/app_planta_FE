@@ -148,7 +148,7 @@ const Catalog = ({ route }) => {
         <View style={style.container}>
 
             <Header
-                iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                iconLeft={require('../../resources/images/arrowleft.jpg')}
                 title={namecatalog}
                 iconRight={require('../../resources/images/cart.png')}
                 eventLeft={() => navigation.navigate('Home')}

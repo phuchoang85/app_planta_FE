@@ -155,7 +155,7 @@ const PayPage = () => {
             style={style.container}>
             <View style={style.container}>
                 <Header
-                    iconLeft={require('../../resources/images/arrowLeft.jpg')}
+                    iconLeft={require('../../resources/images/arrowleft.jpg')}
                     title={'THANH TOÁN'}
                     eventLeft={() => navigation.navigate('Cart')}
                 />
