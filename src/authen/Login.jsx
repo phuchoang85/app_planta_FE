@@ -33,7 +33,7 @@ const Login = () => {
   }
 
   const thongbao = () => {
-    Alert.alert('heh ' + email);
+    Alert.alert('Thong báo ' ,'Đang phát triển');
   }
 
   return (

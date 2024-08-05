@@ -1,6 +1,7 @@
 
 import { createAsyncThunk } from '@reduxjs/toolkit';
 import AxiosInstance from '../src/helper/AxiosInstance'
+import { Alert } from 'react-native';
 
 
 export default UserApi = {
@@ -20,9 +21,13 @@ export default UserApi = {
                         phonenumber: result.data.phoneNumber,
                     };
                     return data
+                }else{
+                    console.log(result.data)
                 }
             } catch (error) {
-                console.log(error)
+                if (error.response) {
+                    Alert.alert('Lỗi',error.response.data.data)
+                  }
                 return rejectWithValue(error);
             }
         }
@@ -40,8 +45,7 @@ export default UserApi = {
     },
     updateUser: async (body) => {
         try {
-            console.log(body)
-            const result = await AxiosInstance().post(`/cap-nhat-tai-khoan`, body);
+            const result = await AxiosInstance().post(`/updateuser`, body);
             return result;
         } catch (error) {
             const response = error.response

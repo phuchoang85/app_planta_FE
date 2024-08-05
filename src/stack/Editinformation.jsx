@@ -132,8 +132,8 @@ const Editinformation = () => {
             dispatch(updateUser(udpatedata))
             Alert.alert('Cập nhật thành công')
         } else {
-            Alert.alert('Lỗi')
             console.log(result.data)
+            Alert.alert('Lỗi',result.data)
         }
     }
 

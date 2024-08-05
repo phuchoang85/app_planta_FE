@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, ScrollView } from 'react-native'
+import { View, Text, StyleSheet, ScrollView, ActivityIndicator } from 'react-native'
 import React, { useCallback, useEffect, useState } from 'react'
 import styles from '../../commond/AppStyles'
 import { useFocusEffect, useNavigation } from '@react-navigation/native'
@@ -6,24 +6,29 @@ import Header from './Header'
 import AppFlatListProductHome from '../../commond/AppFlatListProductHome'
 import RenderSearch from '../../renderList/RenderSearch'
 import ProductApi from '../../api/ProductApi'
+import { useStore } from 'react-redux'
 const PlantGrowingGuide = () => {
 
   const navigation = useNavigation();
   const [data, setdata] = useState([]);
   const [page, setpage] = useState(1);
+  const [isLoading, setIsLoading] = useState(false)
 
   const getprodcut = async (page) => {
+    setIsLoading(true)
     const body = {
-      limit: 8,
+      limit: 6,
       page: page,
     }
     const result = await ProductApi.getProduct(body);
 
     if (result.status) {
       setdata([...data, ...result.data]);
+      setpage(page);
     } else {
       Alert.alert("lỗi")
     }
+    setIsLoading(false)
   }
 
   const handleScroll = async (event) => {
@@ -31,8 +36,7 @@ const PlantGrowingGuide = () => {
     const { height } = event.nativeEvent.layoutMeasurement;
     const contentSize = event.nativeEvent.contentSize.height;
 
-    if (height + y >= contentSize - 50) {
-      setpage(page + 1);
+    if (height + y >= contentSize - 50 && !isLoading) {
       await getprodcut(page + 1);
     }
 

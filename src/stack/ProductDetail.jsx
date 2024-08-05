@@ -206,7 +206,7 @@ const ProductDetail = ({ route }) => {
             />
 
             <Text style={style.textSmallDetail}>
-              {detail.description}
+              {detail.descripe}
             </Text>
 
             <View style={style.paddingBottom}>

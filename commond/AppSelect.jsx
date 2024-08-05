@@ -27,7 +27,7 @@ const AppSelect = (props) => {
                     </Text>
                 </View>
                 {selectType == id ?
-                    <Image style={style.icon} source={require('../resources/images/check.png')} /> :
+                    <Image style={style.icon} source={require('../resources/images/checkxanh.jpg')} /> :
                     <View></View>}
 
 
@@ -52,7 +52,7 @@ const AppSelect = (props) => {
                 </Text>
             </View>
             {selectType == id ?
-                <Image style={style.icon} source={require('../resources/images/check.png')} /> :
+                <Image style={style.icon} source={require('../resources/images/checkxanh.jpg')} /> :
                 <View></View>}
 
 

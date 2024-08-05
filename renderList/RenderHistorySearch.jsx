@@ -4,7 +4,7 @@ import styles from '../commond/AppStyles'
 import AppButtonImage from '../commond/AppButtonImage'
 import product from '../filedata/product.json'
 
-const Renderhistorysearch = (props) => {
+const RenderHistorySearch = (props) => {
   const { item, setsearch, setdatapro } = props;
 
   const findProduct = (text, data) => {
@@ -53,4 +53,4 @@ const style = StyleSheet.create({
   }
 })
 
-export default Renderhistorysearch
+export default RenderHistorySearch
