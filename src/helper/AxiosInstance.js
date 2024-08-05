@@ -4,7 +4,7 @@ import axios from 'axios';
 const AxiosInstance = (contentType = 'application/json') => {
     const axiosInstance = axios.create({
         // baseURL: 'http://192.168.10.48:6868/'
-        baseURL: 'https://pdp201.quockhanh020924.id.vn/'
+        baseURL: 'https://pdp201.quockhanh020924.id.vn/api/'
     });
 
     axiosInstance.interceptors.request.use(
