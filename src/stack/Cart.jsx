@@ -143,7 +143,7 @@ const Cart = () => {
             <Header
                 iconLeft={require('../../resources/images/arrowLeft.jpg')}
                 title={'GIỎ HÀNG'}
-                iconRight={require('../../resources/images/trash-can.png')}
+                iconRight={require('../../resources/images/trash_can.png')}
                 eventLeft={() => navigation.goBack()}
                 eventRight={() => setismodal(true)}
             />

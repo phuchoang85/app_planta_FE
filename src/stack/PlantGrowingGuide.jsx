@@ -47,7 +47,7 @@ const PlantGrowingGuide = () => {
     <View style={style.container}>
       <Header
         iconLeft={require('../../resources/images/arrowLeft.jpg')}
-        title={'CẨM NANG CÂY TRỒNG'}
+        title={'CÁCH BẢO QUẢN GỐM'}
         eventLeft={() => navigation.navigate('User')}
       />
 
