@@ -6,10 +6,10 @@ import { useNavigation } from '@react-navigation/native'
 import AppInputUnderLine from '../../commond/AppInputUnderLine'
 import Appbutton from '../../commond/Appbutton'
 import { useDispatch, useSelector } from 'react-redux'
-import AxiosInstance from '../helper/AxiosInstance'
 import UserApi from '../../api/UserApi'
 import { updateUser } from '../redux/reducer/ReducerUser'
 import { launchCamera, launchImageLibrary } from 'react-native-image-picker'
+import RNFS from 'react-native-fs';
 
 const Editinformation = () => {
     const appReducer = useSelector((state) => state.user);
@@ -94,7 +94,7 @@ const Editinformation = () => {
     const openlibrary = async () => {
         const response = await launchImageLibrary(libaryoption);
         if (response?.assets) {
-            await onUPloadCloud(response.assets)
+            await onUploadBase64(response.assets)
         } else {
             Alert.alert('Có lỗi xảy ra')
         }
@@ -104,7 +104,7 @@ const Editinformation = () => {
         const response = await launchCamera(cameraoption)
         if (response?.assets) {
             console.log(response.assets)
-            await onUPloadCloud(response.assets)
+            await onUploadBase64(response.assets)
         } else {
             Alert.alert('Có lỗi xảy ra')
         }
@@ -133,6 +133,7 @@ const Editinformation = () => {
             Alert.alert('Cập nhật thành công')
         } else {
             Alert.alert('Lỗi')
+            console.log(result.data)
         }
     }
 
@@ -166,6 +167,21 @@ const Editinformation = () => {
             setshowbuttonaddimg(false)
         }
     }
+
+    const onUploadBase64 =async (file) => {
+        try {
+            // Lấy đường dẫn từ file
+        const filePath = file[0].uri;
+
+        // Đọc file và chuyển đổi thành base64
+        const base64data = await RNFS.readFile(filePath, 'base64');
+        
+        // Đặt avatar với base64 data
+        setavatar("data:image/jpeg;base64," + base64data);
+        } catch (error) {
+            console.log(error)
+        }
+    }
     return (
 
         <View style={style.container}>
@@ -177,7 +193,7 @@ const Editinformation = () => {
 
             <View style={style.containerbody}>
                 <TouchableOpacity onPress={() => setshowbuttonaddimg(!showbuttonaddimg)}>
-                    <Image style={style.icon} source={{ uri: avatar }} />
+                    <Image style={style.icon} source={avatar ? { uri: avatar } : require('../../resources/images/avatar.jpg')} />
                 </TouchableOpacity>
                 <Text style={style.text14}>
                     Thông tin sẽ được lưu cho lần mua kế tiếp.

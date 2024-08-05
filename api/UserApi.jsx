@@ -33,12 +33,14 @@ export default UserApi = {
 
             return result;
         } catch (error) {
+            console.log(error)
             const response = error.response
             return response.data
         }
     },
     updateUser: async (body) => {
         try {
+            console.log(body)
             const result = await AxiosInstance().post(`/cap-nhat-tai-khoan`, body);
             return result;
         } catch (error) {

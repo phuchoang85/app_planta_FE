@@ -3,7 +3,12 @@ import axios from 'axios';
 
 const AxiosInstance = (contentType = 'application/json') => {
     const axiosInstance = axios.create({
+<<<<<<< HEAD
         baseURL: 'http://quockhanh020924.id.vn:6868/'
+=======
+        // baseURL: 'http://192.168.10.48:6868/'
+        baseURL: 'https://pdp201.quockhanh020924.id.vn/api/'
+>>>>>>> 253f179ab4441a5df34a89b5599c0ddb6682ec59
     });
 
     axiosInstance.interceptors.request.use(
